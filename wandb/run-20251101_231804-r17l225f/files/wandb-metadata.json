@@ -1,0 +1,47 @@
+{
+  "os": "macOS-10.16-x86_64-i386-64bit",
+  "python": "CPython 3.11.10",
+  "startedAt": "2025-11-01T17:48:05.337292Z",
+  "args": [
+    "--wandb_sweep"
+  ],
+  "program": "/Users/rudra_sarkar/Documents/PhD IIT Madras/topics_rl_project/test_vq/main.py",
+  "codePath": "main.py",
+  "git": {
+    "remote": "https://github.com/rudra-iitm-phd/modified-bisimulation.git",
+    "commit": "5fe9b7f72385162cba168b171fc5785f86a67771"
+  },
+  "email": "da24d008@smail.iitm.ac.in",
+  "root": "/Users/rudra_sarkar/Documents/PhD IIT Madras/topics_rl_project/test_vq",
+  "host": "Rudras-MacBook-Air.local",
+  "executable": "/opt/anaconda3/envs/rl_env/bin/python",
+  "codePathLocal": "main.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "235395063808"
+    },
+    "/System/Volumes/Data": {
+      "total": "245107195904",
+      "used": "235395063808"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Unknown",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 7,
+    "memoryGb": 8,
+    "swapTotalBytes": "12884901888",
+    "ramTotalBytes": "8589934592"
+  }
+}

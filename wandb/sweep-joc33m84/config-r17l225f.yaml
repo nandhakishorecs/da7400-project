@@ -1,0 +1,6 @@
+wandb_version: 1
+
+batch_size:
+  value: 256
+embedding_loss_coeff:
+  value: 0.8
