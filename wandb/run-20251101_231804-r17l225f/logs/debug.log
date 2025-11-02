@@ -21,3 +21,7 @@ config: {'batch_size': 256, 'embedding_loss_coeff': 0.4, 'wandb': False, 'wandb_
 2025-11-01 23:18:08,024 INFO    Thread-3 (_run_job):3049 [wandb_run.py:_redirect():2292] Wrapping output streams.
 2025-11-01 23:18:08,024 INFO    Thread-3 (_run_job):3049 [wandb_run.py:_redirect():2315] Redirects installed.
 2025-11-01 23:18:08,026 INFO    Thread-3 (_run_job):3049 [wandb_init.py:init():1032] run started, returning control to user process
+2025-11-02 01:03:29,233 INFO    MainThread:3049 [wandb_run.py:_finish():2112] finishing run da24d008-iit-madras/da7400-test/r17l225f
+2025-11-02 01:03:29,240 INFO    MainThread:3049 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-11-02 01:03:29,242 INFO    MainThread:3049 [wandb_run.py:_restore():2322] restore
+2025-11-02 01:03:29,244 INFO    MainThread:3049 [wandb_run.py:_restore():2328] restore done
