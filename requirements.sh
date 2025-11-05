@@ -8,3 +8,4 @@ conda activate rl_test
 pip install --upgrade --force-reinstall "gymnasium[classic-control,box2d]==0.28.1"
 
 pip install wandb tqdm 
+pip install swig

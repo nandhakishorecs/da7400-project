@@ -87,7 +87,7 @@ class BaseAgent:
             
             return actor_loss
 
-      def compute_embedding_loss(self, states):
+      def compute_embedding_loss(self, states, eps = 1e-8):
             embeddings = self.embedding(states)
             with torch.no_grad():
                   values = self.target_critic(embeddings)
@@ -100,8 +100,8 @@ class BaseAgent:
 
             v_1, v_2 = values.squeeze(), values[idx].squeeze()
 
-            return F.mse_loss(torch.norm(phi_1 - phi_2, 2, dim = -1), v_1 - v_2)
-            
+            # return F.mse_loss(torch.norm(phi_1 - phi_2, 2, dim = -1), v_1 - v_2)
+            return F.mse_loss(torch.log(torch.clamp(torch.norm(phi_1 - phi_2, 2, dim=-1), min=eps)), v_1 - v_2)
             
 
       def freeze_critic(self):
